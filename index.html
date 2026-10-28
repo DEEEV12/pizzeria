@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzeria Akji – Aït Ben Haddou</title>
+<meta name="description" content="Pizzeria Akji à Aït Ben Haddou : pizzas, makla, michwi, sandwichs, crêpes, soupes et jus. Commandez par WhatsApp ou par téléphone.">
+<meta property="og:title" content="Pizzeria Akji – Aït Ben Haddou">
+<meta property="og:image" content="1.webp">
+<meta name="theme-color" content="#25282b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Pizzeria Akji","servesCuisine":"Pizza","telephone":"+212601548171","priceRange":"50–100 MAD","address":{"@type":"PostalAddress","streetAddress":"2VW8+4JX","addressLocality":"Aït Ben Haddou","addressCountry":"MA"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"24"}}</script>
+<style>
+:root{--bg:#25282b;--bg2:#1d1f21;--card:#2f3236;--tx:#f3f1ec;--mut:#a9a8a3;--ac:#f5a623;--ac2:#ffc65a;--r:14px;--fd:'Bebas Neue','Tajawal',Impact,sans-serif;--fb:'Tajawal',system-ui,-apple-system,'Segoe UI',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--fb);background:var(--bg);color:var(--tx);line-height:1.6;font-size:17px;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.05;background:radial-gradient(circle at 20% 10%,#fff 0,transparent 40%),radial-gradient(circle at 80% 90%,#fff 0,transparent 40%)}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.w{width:min(1120px,92%);margin-inline:auto}
+h1,h2,h3{font-family:var(--fd);font-weight:400;line-height:1;letter-spacing:.02em}
+[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] h3{font-family:var(--fb);font-weight:700;letter-spacing:0}
+/* brush label */
+.brush{display:inline-block;background:var(--ac);color:#25282b;padding:.2em 1.4em;font-size:clamp(1.5rem,3.4vw,2.1rem);clip-path:polygon(0 12%,4% 0,30% 8%,60% 0,92% 6%,100% 0,98% 55%,100% 100%,70% 92%,38% 100%,8% 94%,0 100%,2% 50%);transform:rotate(-1.2deg)}
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(29,31,33,.92);backdrop-filter:blur(8px);border-bottom:1px solid #ffffff14}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.logo{font-family:var(--fd);font-size:1.9rem;letter-spacing:.04em;white-space:nowrap}.logo b{color:var(--ac);font-weight:400}
+nav ul{display:flex;gap:22px;list-style:none;font-weight:500}
+nav a:hover{color:var(--ac)}
+.tools{display:flex;gap:8px;align-items:center}
+.lang{display:flex;background:#ffffff12;border-radius:99px;padding:3px}
+.lang button{background:none;border:2px solid transparent;padding:5px 6px;border-radius:99px;cursor:pointer;opacity:.6;display:flex}
+.lang button svg{width:26px;height:17px;border-radius:3px;display:block}
+.lang button[aria-pressed=true]{opacity:1;border-color:var(--ac)}
+.burger{display:none;background:none;border:0;width:42px;height:42px;cursor:pointer}
+.burger i,.burger i::before,.burger i::after{display:block;width:22px;height:2px;background:var(--tx);position:relative;margin:auto;transition:.25s}
+.burger i::before,.burger i::after{content:"";position:absolute;left:0}.burger i::before{top:-7px}.burger i::after{top:7px}
+.burger[aria-expanded=true] i{background:transparent}.burger[aria-expanded=true] i::before{top:0;transform:rotate(45deg)}.burger[aria-expanded=true] i::after{top:0;transform:rotate(-45deg)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 26px;border-radius:99px;font-weight:700;border:2px solid var(--ac);transition:.2s;cursor:pointer;font-size:1rem}
+.btn.p{background:var(--ac);color:#25282b}.btn.p:hover{background:var(--ac2);border-color:var(--ac2)}
+.btn.o{color:var(--ac)}.btn.o:hover{background:var(--ac);color:#25282b}
+/* hero */
+.hero{padding:clamp(36px,7vw,90px) 0;overflow:hidden}
+.hg{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(4.2rem,13vw,9.5rem);color:#fff}
+.hero h1 span{display:block;color:var(--ac);font-size:.5em;margin-top:.1em}
+.hero p{color:var(--mut);max-width:34em;margin:20px 0 28px;font-size:1.1rem}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px dashed #ffffff30;color:var(--mut);font-size:.95rem}
+.facts b{display:block;color:var(--tx);font-size:1.15rem}
+.plate{position:relative;aspect-ratio:1;border-radius:50%;background:#1d1f21 center/cover;box-shadow:0 0 0 10px #ffffff0d,0 30px 60px #0008;animation:spin 1.2s cubic-bezier(.2,.8,.2,1) both}
+.plate img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+@keyframes spin{from{transform:rotate(-25deg) scale(.85);opacity:0}}
+/* sections */
+section{padding:clamp(50px,8vw,90px) 0}
+.alt{background:var(--bg2)}
+.sh{text-align:center;margin-bottom:38px}.sh p{color:var(--mut);margin-top:12px}
+/* menu */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 14px;margin-bottom:22px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;background:var(--card);border:1px solid #ffffff1a;color:var(--tx);padding:10px 20px;border-radius:99px;font:700 .95rem var(--fb);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--ac);color:#25282b;border-color:var(--ac)}
+.mgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;max-width:900px;margin:auto}
+.mi{display:flex;align-items:baseline;gap:10px;padding:13px 0;border-bottom:1px solid #ffffff14}
+.mi i{flex:1;border-bottom:2px dotted #ffffff30;transform:translateY(-4px)}
+.mi span{font-weight:500;text-transform:capitalize}.mi b{color:var(--ac);white-space:nowrap}
+.note{text-align:center;color:var(--mut);margin-top:26px;font-size:.95rem}
+/* gallery */
+.gal{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.gal button{flex:0 0 calc(25% - 7.5px);aspect-ratio:4/3;border:0;padding:0;border-radius:var(--r);overflow:hidden;cursor:zoom-in;background:var(--card)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.gal button:hover img{transform:scale(1.06)}
+.lb{position:fixed;inset:0;background:#000d;display:none;align-items:center;justify-content:center;z-index:100;padding:20px}
+.lb.on{display:flex}.lb img{max-height:88vh;border-radius:10px}
+.lb button{position:absolute;background:#ffffff22;border:0;color:#fff;width:48px;height:48px;border-radius:50%;font-size:1.5rem;cursor:pointer}
+.lb .x{top:16px;right:16px}.lb .pv{left:14px}.lb .nx{right:14px}
+/* info */
+.ig{display:grid;grid-template-columns:1fr 1.2fr;gap:30px}
+.card{background:var(--card);border-radius:var(--r);padding:28px}
+.card h3{font-size:1.9rem;color:var(--ac);margin-bottom:14px}
+.card p{margin-bottom:12px;color:var(--mut)}.card p b{color:var(--tx);display:block}
+.map{border:0;width:100%;height:100%;min-height:340px;border-radius:var(--r);filter:grayscale(.3) contrast(1.05)}
+details{background:var(--card);border-radius:12px;margin-bottom:10px;max-width:760px;margin-inline:auto}
+summary{padding:18px 22px;cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";color:var(--ac);font-size:1.4rem;line-height:1}details[open] summary::after{content:"–"}
+details p{padding:0 22px 18px;color:var(--mut)}
+footer{background:#161718;padding:36px 0 90px;text-align:center;color:var(--mut)}
+footer .logo{display:block;margin-bottom:10px;color:var(--tx)}
+.soc{margin-top:14px;display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+.ic{width:20px;height:20px;flex:none}
+.btn.wab,.fab .wa{background:#25d366;border-color:#25d366;color:#07391b}.btn.wab:hover{background:#1ebe5a;border-color:#1ebe5a}
+.btn.igb{background:linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);border-color:transparent;color:#fff}.btn.igb:hover{filter:brightness(1.1)}
+.soc .btn{padding:10px 20px}.soc .btn.o:hover{color:#25282b}
+.fab{position:fixed;bottom:16px;inset-inline:16px;display:none;gap:10px;z-index:40}.fab .btn{flex:1;padding:13px;box-shadow:0 8px 24px #0009}
+.fab .cl{background:var(--bg2)}
+@media(max-width:860px){
+.burger{display:block}
+nav{position:absolute;top:64px;inset-inline:0;background:var(--bg2);max-height:0;overflow:hidden;transition:max-height .3s}
+nav.open{max-height:360px;border-bottom:1px solid #ffffff14}
+nav ul{flex-direction:column;gap:0;padding:8px 5%}nav li a{display:block;padding:14px 0;border-bottom:1px solid #ffffff10}
+.hg,.ig{grid-template-columns:1fr}.plate{max-width:340px;margin:auto;order:-1}
+.hero{text-align:center}.hero p{margin-inline:auto}.cta,.facts{justify-content:center}
+.mgrid{grid-template-columns:1fr}.gal button{flex-basis:calc(50% - 5px)}
+.fab{display:flex}
+}
+@media(max-width:420px){.lang button{padding:4px 3px}.lang button svg{width:22px;height:15px}.logo{font-size:1.5rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/><path fill="#25d366" d="M8.4 7.4c-.4.4-.9 1.2-.5 2.3.7 2.1 2.8 4.3 5.4 5.1 1.1.3 1.9-.2 2.3-.8l-1.8-1.3-1 .7c-1.1-.3-2.3-1.5-2.7-2.5l.7-1z"/></symbol><symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></symbol></svg>
+<header><div class="w nav">
+<a href="#top" class="logo">Pizzeria <b>Akji</b></a>
+<nav id="nav" aria-label="Menu"><ul>
+<li><a href="#menu" data-i="n_menu"></a></li><li><a href="#gallery" data-i="n_gal"></a></li><li><a href="#contact" data-i="n_con"></a></li><li><a href="#faq" data-i="n_faq"></a></li></ul></nav>
+<div class="tools">
+<div class="lang" role="group" aria-label="Language"><button data-l="ar" aria-label="العربية"></button><button data-l="fr" aria-label="Français"></button><button data-l="en" aria-label="English"></button><button data-l="es" aria-label="Español"></button></div>
+<button class="burger" id="bg" aria-label="Menu" aria-expanded="false"><i></i></button></div>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="w hg">
+<div>
+<h1>Pizzeria <span>Akji</span></h1>
+<p data-i="hero_p"></p>
+<div class="cta"><a class="btn wab" id="wa1" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span data-i="order"></span></a><a class="btn o" href="#menu" data-i="see_menu"></a></div>
+<div class="facts"><div><b>4.8 ★</b><span data-i="reviews"></span></div><div><b>50–100 DH</b><span data-i="perperson"></span></div><div><b data-i="takeaway"></b><span data-i="avail"></span></div></div>
+</div>
+<div class="plate"><img src="1.webp" alt="Pizza – Pizzeria Akji" fetchpriority="high" onerror="this.remove()"></div>
+</div></div>
+
+<section id="menu" class="alt"><div class="w">
+<div class="sh"><h2 class="brush" data-i="n_menu"></h2></div>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div class="mgrid" id="mlist" role="tabpanel"></div>
+<p class="note" data-i="menu_note"></p>
+</div></section>
+
+<section id="gallery"><div class="w">
+<div class="sh"><h2 class="brush" data-i="n_gal"></h2></div>
+<div class="gal" id="gal"></div>
+</div></section>
+
+<section id="contact" class="alt"><div class="w">
+<div class="sh"><h2 class="brush" data-i="n_con"></h2></div>
+<div class="ig">
+<div class="card"><h3>Pizzeria Akji</h3>
+<p><b data-i="addr_t"></b><span dir="ltr">2VW8+4JX, Aït Ben Haddou</span></p>
+<p><b data-i="tel_t"></b><a href="tel:+212601548171" dir="ltr">06 01 54 81 71</a></p>
+<p><b data-i="price_t"></b><span data-i="price_v"></span></p>
+<div class="cta" style="margin-top:18px"><a class="btn wab" id="wa2" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span data-i="wa"></span></a><a class="btn o" href="tel:+212601548171" data-i="call"></a><a class="btn igb" href="https://www.instagram.com/timgicave?obrf=MWg2cGMwbHN6NWNtOA==" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ig"/></svg>Instagram</a><a class="btn o" href="https://maps.app.goo.gl/CNMkMXMtuZRf3MRg7" target="_blank" rel="noopener" data-i="dir"></a></div></div>
+<iframe class="map" title="Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=2VW8%2B4JX%20A%C3%AFt%20Ben%20Haddou&output=embed"></iframe>
+</div></div></section>
+
+<section id="faq"><div class="w">
+<div class="sh"><h2 class="brush" data-i="n_faq"></h2></div>
+<details><summary data-i="q1"></summary><p data-i="a1"></p></details>
+<details><summary data-i="q2"></summary><p data-i="a2"></p></details>
+<details><summary data-i="q3"></summary><p data-i="a3"></p></details>
+</div></section>
+</main>
+
+<footer><div class="w">
+<span class="logo">Pizzeria Akji</span>
+<p data-i="foot"></p>
+<div class="soc"><a class="btn wab" id="wa3" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>WhatsApp</a><a class="btn igb" href="https://www.instagram.com/timgicave?obrf=MWg2cGMwbHN6NWNtOA==" target="_blank" rel="noopener"><svg class="ic"><use href="#i-ig"/></svg>Instagram</a><a class="btn o" href="https://maps.app.goo.gl/CNMkMXMtuZRf3MRg7" target="_blank" rel="noopener">Google Maps</a></div>
+<p style="margin-top:18px;font-size:.85rem">© <span id="yr"></span> Pizzeria Akji</p>
+</div></footer>
+
+<div class="fab"><a class="btn wa" id="wa4" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span data-i="wa"></span></a><a class="btn igb" href="https://www.instagram.com/timgicave?obrf=MWg2cGMwbHN6NWNtOA==" target="_blank" rel="noopener" aria-label="Instagram" style="flex:0 0 52px;padding:13px 0"><svg class="ic"><use href="#i-ig"/></svg></a><a class="btn cl" href="tel:+212601548171" data-i="call"></a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true"><button class="x" aria-label="Close">×</button><button class="pv" aria-label="Previous">‹</button><img alt=""><button class="nx" aria-label="Next">›</button></div>
+
+<script>
+const PH="212601548171";
+const T={
+fr:{n_menu:"Menu",n_gal:"Galerie",n_con:"Contact",n_faq:"FAQ",hero_p:"Pizzas, makla, michwi, sandwichs, crêpes et jus. Une cuisine simple et généreuse à Aït Ben Haddou.",order:"Commander sur WhatsApp",see_menu:"Voir le menu",reviews:"24 avis Google",perperson:"par personne",takeaway:"À emporter",avail:"disponible",menu_note:"Prix en dirhams marocains (DH).",addr_t:"Adresse",tel_t:"Téléphone",price_t:"Prix moyen",price_v:"50–100 DH par personne",wa:"WhatsApp",call:"Appeler",dir:"Itinéraire",q1:"Proposez-vous la vente à emporter ?",a1:"Oui, la vente à emporter est disponible.",q2:"Comment commander ?",a2:"Par WhatsApp ou par téléphone au 06 01 54 81 71.",q3:"Quel est le prix moyen ?",a3:"Entre 50 et 100 DH par personne.",foot:"Aït Ben Haddou, Maroc",wam:"Bonjour, je voudrais commander chez Pizzeria Akji.",
+c:{pizza:"Pizza",makla:"Makla",michwi:"Michwi",sandwich:"Sandwich",crepes:"Les crêpes",soup:"Soupe",boisson:"Boissons",jus:"Jus"}},
+en:{n_menu:"Menu",n_gal:"Gallery",n_con:"Contact",n_faq:"FAQ",hero_p:"Pizzas, makla, michwi, sandwiches, crêpes and juices. Simple, generous food in Aït Ben Haddou.",order:"Order on WhatsApp",see_menu:"View menu",reviews:"24 Google reviews",perperson:"per person",takeaway:"Takeaway",avail:"available",menu_note:"Prices in Moroccan dirhams (DH).",addr_t:"Address",tel_t:"Phone",price_t:"Average price",price_v:"50–100 DH per person",wa:"WhatsApp",call:"Call",dir:"Directions",q1:"Do you offer takeaway?",a1:"Yes, takeaway is available.",q2:"How can I order?",a2:"By WhatsApp or by phone on 06 01 54 81 71.",q3:"What is the average price?",a3:"Between 50 and 100 DH per person.",foot:"Aït Ben Haddou, Morocco",wam:"Hello, I would like to order from Pizzeria Akji.",
+c:{pizza:"Pizza",makla:"Makla",michwi:"Michwi (grill)",sandwich:"Sandwiches",crepes:"Crêpes",soup:"Soups",boisson:"Drinks",jus:"Juices"}},
+es:{n_menu:"Menú",n_gal:"Galería",n_con:"Contacto",n_faq:"Preguntas",hero_p:"Pizzas, makla, michwi, sándwiches, crepes y zumos. Cocina sencilla y generosa en Aït Ben Haddou.",order:"Pedir por WhatsApp",see_menu:"Ver el menú",reviews:"24 reseñas en Google",perperson:"por persona",takeaway:"Para llevar",avail:"disponible",menu_note:"Precios en dirhams marroquíes (DH).",addr_t:"Dirección",tel_t:"Teléfono",price_t:"Precio medio",price_v:"50–100 DH por persona",wa:"WhatsApp",call:"Llamar",dir:"Cómo llegar",q1:"¿Ofrecen comida para llevar?",a1:"Sí, hay servicio para llevar.",q2:"¿Cómo puedo pedir?",a2:"Por WhatsApp o por teléfono al 06 01 54 81 71.",q3:"¿Cuál es el precio medio?",a3:"Entre 50 y 100 DH por persona.",foot:"Aït Ben Haddou, Marruecos",wam:"Hola, quisiera hacer un pedido en Pizzeria Akji.",
+c:{pizza:"Pizza",makla:"Makla",michwi:"Michwi (parrilla)",sandwich:"Sándwiches",crepes:"Crepes",soup:"Sopas",boisson:"Bebidas",jus:"Zumos"}},
+ar:{n_menu:"القائمة",n_gal:"المعرض",n_con:"اتصل بنا",n_faq:"أسئلة شائعة",hero_p:"بيتزا، مأكولات، مشوي، ساندويتش، كريب وعصائر. أكل بسيط وسخي في آيت بن حدّو.",order:"اطلب عبر واتساب",see_menu:"شاهد القائمة",reviews:"24 تقييمًا على Google",perperson:"للشخص الواحد",takeaway:"طعام سفري",avail:"متوفر",menu_note:"الأسعار بالدرهم المغربي (DH).",addr_t:"العنوان",tel_t:"الهاتف",price_t:"متوسط السعر",price_v:"50–100 درهم للشخص الواحد",wa:"واتساب",call:"اتصل",dir:"الاتجاهات",q1:"هل يوجد طعام سفري؟",a1:"نعم، خدمة الطعام السفري متوفرة.",q2:"كيف أطلب؟",a2:"عبر واتساب أو بالهاتف على 06 01 54 81 71.",q3:"ما متوسط الأسعار؟",a3:"بين 50 و100 درهم للشخص الواحد.",foot:"آيت بن حدّو، المغرب",wam:"مرحبا، أريد الطلب من Pizzeria Akji.",
+c:{pizza:"بيتزا",makla:"مأكلة",michwi:"مشوي",sandwich:"ساندويتش",crepes:"الكريب",soup:"الشوربة",boisson:"المشروبات",jus:"العصائر"}}};
+const M={
+pizza:[["Margarita",55],["Vegetarien",60],["Kabab",70],["Quatre fromage",55],["Fruit de mer",55],["Berber",55],["Sandwish",55],["Akji",80]],
+makla:[["Kefta",55],["Dinde",55],["Mixte",60],["Khli3",40]],
+michwi:[["Nature",110],["Légumes",130]],
+sandwich:[["Dinde",45],["Kabab",45],["Fromage",40],["Thon",35]],
+crepes:[["Mesemen",25],["Baghrir",25],["Crip fruit",25]],
+soup:[["Dchicha",15],["Harira",20],["Potiron",25]],
+boisson:[["Soda",15],["Eau minéral",15],["Caffe",20],["Caffe au lait",20],["Eau gaseus",15],["Thé",15],["Thé patisserie",30]],
+jus:[["Orange",15],["Banan",15],["Pomme",20],["Kiwi",20],["Panache",25],["Avocat",25],["Za3za3",45],["Mojito",45]]};
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+let lang=localStorage.getItem("akji-lang")||"fr",cat="pizza";
+function menu(){
+ const L=T[lang];
+ $("#tabs").innerHTML=Object.keys(M).map(k=>`<button role="tab" data-c="${k}" aria-selected="${k===cat}">${L.c[k]}</button>`).join("");
+ $("#mlist").innerHTML=M[cat].map(([n,p])=>`<div class="mi"><span>${n}</span><i></i><b dir="ltr">${p} DH</b></div>`).join("");
+}
+function setLang(l){
+ lang=l;try{localStorage.setItem("akji-lang",l)}catch(e){}
+ const L=T[l],h=document.documentElement;h.lang=l;h.dir=l==="ar"?"rtl":"ltr";
+ $$("[data-i]").forEach(e=>e.textContent=L[e.dataset.i]);
+ $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===l));
+ const u="https://wa.me/"+PH+"?text="+encodeURIComponent(L.wam);
+ ["wa1","wa2","wa3","wa4"].forEach(i=>$("#"+i).href=u);
+ menu();
+}
+$("#tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(b){cat=b.dataset.c;menu()}});
+$$(".lang button").forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+const bg=$("#bg"),nav=$("#nav");
+bg.onclick=()=>{const o=nav.classList.toggle("open");bg.setAttribute("aria-expanded",o)};
+nav.onclick=e=>{if(e.target.tagName==="A"){nav.classList.remove("open");bg.setAttribute("aria-expanded",false)}};
+// gallery
+let gi=0;const lb=$("#lb"),li=lb.querySelector("img");
+$("#gal").innerHTML=Array.from({length:13},(_,i)=>`<button data-n="${i}" aria-label="Photo ${i+1}"><img src="${i+1}.webp" alt="Pizzeria Akji – photo ${i+1}" loading="lazy" decoding="async" onerror="this.parentNode.style.display='none'"></button>`).join("");
+const show=n=>{gi=(n+13)%13;li.src=(gi+1)+".webp"};
+$("#gal").onclick=e=>{const b=e.target.closest("button");if(b){show(+b.dataset.n);lb.classList.add("on")}};
+lb.querySelector(".x").onclick=()=>lb.classList.remove("on");
+lb.querySelector(".pv").onclick=()=>show(gi-1);lb.querySelector(".nx").onclick=()=>show(gi+1);
+lb.onclick=e=>{if(e.target===lb)lb.classList.remove("on")};
+addEventListener("keydown",e=>{if(!lb.classList.contains("on"))return;if(e.key==="Escape")lb.classList.remove("on");if(e.key==="ArrowRight")show(gi+(document.dir==="rtl"?-1:1));if(e.key==="ArrowLeft")show(gi+(document.dir==="rtl"?1:-1))});
+const F={
+ar:'<rect width="30" height="20" fill="#c1272d"/><path d="M15 5l2.9 9-7.6-5.6h9.5L12.1 14z" fill="none" stroke="#006233" stroke-width="1"/>',
+fr:'<rect width="10" height="20" fill="#0055a4"/><rect x="10" width="10" height="20" fill="#fff"/><rect x="20" width="10" height="20" fill="#ef4135"/>',
+en:'<rect width="30" height="20" fill="#012169"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" stroke-width="1.5"/><path d="M15 0v20M0 10h30" stroke="#fff" stroke-width="6"/><path d="M15 0v20M0 10h30" stroke="#c8102e" stroke-width="3.5"/>',
+es:'<rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/>'};
+$$(".lang button").forEach(b=>b.innerHTML='<svg viewBox="0 0 30 20" aria-hidden="true">'+F[b.dataset.l]+'</svg>');
+$("#yr").textContent=new Date().getFullYear();
+setLang(T[lang]?lang:"fr");
+</script>
+</body>
+</html>
